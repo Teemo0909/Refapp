@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kanit , sans-serif;
+}
+
+.main-container{
+    width: 400px;
+    height: 800px;
+    background-color:white;
+    margin: 0 auto ;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    border: 10px solid black;
+}
+
+.main-container .camera-container{
+    background-color: black;
+    width: 27%;
+    /* border: red 2px solid; */
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 37%;
+    /* color: aliceblue; */
+}
+
+
+
+.img-container img{
+    width: 40%;
+    /* border: solid; */
+    margin: 60px 0;
+}
+
+.main-container h1 {
+    margin-top: -40px;
+    margin-bottom: 30px;
+    font-family: Itim , sans-serif;
+    font-size: 50px;
+}
+
+.info-container .user{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 25px;
+}
+
+.info-container .user input {
+    border: solid 2px #ffd700;
+    border-radius: 20px;
+    outline: none;
+    width: 75%;
+    height: 100%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.info-container .Password {
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 25px;
+}
+
+
+.info-container .Password input {
+    border: solid 2px #ffd700;
+    border-radius: 20px;
+    outline: none;
+    width: 75%;
+    height: 100%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+.re-fo-container{
+    margin: 10px 0 25px;
+}
+
+.re-fo-container a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #ffd700;
+    
+}
+
+.re-fo-container a:hover {
+    color: #5E5E5E;
+}
+
+.btn {
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 25px;
+}
+
+.btn button {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 75%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEA2C;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+
+.singin a {
+    text-decoration: none;
+    color: #ffd700;
+}
+
+.singin a:hover {
+    color: #5E5E5E;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.bottom .icon a{
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+}
+

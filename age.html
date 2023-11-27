@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="age.css">
+</head>
+<body>
+    <div class="Phone-container">
+        <div class="main-container">
+            <div class="info-age">
+                <p>Please Enter your</p>
+                <p class="Age-text">Age</p>
+            </div>
+            
+                <div class="selection-age">
+                    <div class="up">
+                        <i class="fa-solid fa-angle-up" style="color: #000000;"></i>
+                    </div>
+                    
+                    <div class="input-container">
+                        <input 
+                        type="number"
+                        class="num-input"
+                        min="1"
+                        max="50"
+                        value="15"
+                        data-color="#21d99b">
+                    </div>  
+                    <div class="down">
+                        <i class="fa-solid fa-angle-down" style="color: #000000;"></i>
+                    </div>
+                    
+                </div>
+        
+            <div class="next-button">
+                <button onclick="nexttoheight()">Next</button>
+            </div>
+            <div class="footer-container">
+                <button onclick="nexttoheight()">Skip <i class="fa-solid fa-angle-right" style="color: white;"></i></button>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/bb7a196dfb.js" crossorigin="anonymous"></script>
+    <!-- java -->
+    <script src="mainjs.js"></script>
+</body>
+</html>

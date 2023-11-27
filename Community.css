@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+
+
+.Phone-container {
+    margin: 0 auto;
+    width: 400px;
+    height: 800px;
+    border-radius: 40px;
+    border: solid 10px black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+    /* background-image: url(Pic/054A6856.webp);
+    background-position: center;
+    background-size: cover; */
+}
+
+.main-container {
+    /* background-color: black; */
+    background: linear-gradient(180deg, white 0%, black 100%);
+    
+
+}
+
+.top {
+    /* background-color: aqua; */
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    
+}
+
+
+.top .ser {
+    width: 100%;
+    margin-left: 40px;
+    display: flex; 
+    /* background-color: #FFEA2C; */
+}
+
+
+
+.top .ser input {
+    width: 60%;
+    height: 40px;
+    border-radius: 50px;
+    padding-left: 15px;
+    align-items: center;
+    font-size: 23px;
+    border: solid black 2px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+.se-container .pink {
+    background-color: pink;
+}
+
+.se-container .plus {
+    font-size: 25px;
+}
+
+
+.cloperfer-container {
+    /* background-color: black; */
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 650px;
+    
+
+}
+
+
+
+.main-pic-container{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 620px;
+    margin-top: -20px;
+}
+
+.top-pic-container{
+    background-color: #393939;
+    width: 350px;
+    height: 580px;
+    padding: 10px 0 0 0;
+    border-radius: 30px;
+    margin-left: 13px;
+    border: #FFEA2C solid 3px;
+    
+}
+
+.top-pic-container img {
+    width: 350px;
+    border-radius: 30px;
+    padding: 1px 0;
+}
+
+
+
+.main-pic-container::-webkit-scrollbar {
+    background-color: white;
+    border: #393939 solid 1px;
+    width: 12px; /* width of the scrollbar */
+    border-radius: 10px; /* border-radius of the entire scrollbar */
+}
+
+.main-pic-container::-webkit-scrollbar-thumb {
+    background-color: #FFEA2C; /* color of the thumb */
+    border-radius: 10px; /* border-radius of the thumb */
+}
+
+
+.top-pic-container {
+    margin-bottom: 10px;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -40px;
+    position: relative;
+}
+
+.bar-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.icon-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 25px;
+}
+
+.icon-container a:hover {
+    color: #ddd;
+}
+
+
+.icon-container .fa-message{
+    color: #FFEA2C;
+}
+
+.top-info-container {
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.profi-container {
+    background-color: white;
+    width: 58px;
+    height: 58px;
+    margin: 10px 0 0 20px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.fa-user {
+    padding-top: 13px;
+    font-size: 30px;
+    color: palevioletred;
+}
+
+.name-container {
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-left: 12px;
+    margin-top: -10px;
+}
+
+.name-container .st{
+    color: #545454;
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+.dot-container {
+    /* background-color: #FFEA2C; */
+    font-size: 35px;
+    margin-left: 120px;
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+    color: #545454;
+}
+
+.minddle-container {
+    /* background-color: aqua; */
+    width: 95%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    margin-left: 10px;
+}
+
+.middle-img {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 340px;
+    margin-top: -10px;
+}
+
+.middle-img img {
+    width: 95%;
+}
+
+.icon-footer {
+    /* background-color: aqua; */
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+
+.fa-heart {
+    margin-left: 0px;
+    color: #FFEA2C;
+}
+
+
+.fa-comment{
+    margin-left: 30px;
+    color: white;
+}
+
+.fa-retweet {
+    color: #FFEA2C;
+    margin-left: 160px;
+}
+
+.protop-container {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: #393939 solid;
+}
+
+.user {
+    font-size: 25px;
+}
+
+.but {
+    color: white;
+    font-size: 40px;
+}
+
+.but:hover {
+    color: #ddd;
+}
+

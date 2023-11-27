@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="height.css">
+</head>
+<body>
+    <div class="Phone-container">
+        <div class="main-container">
+            <div class="info-age">
+                <p>Please Enter your</p>
+                <p class="Age-text">Height & Weight</p>
+            </div>
+            
+            <!-- ตัวเลือก -->
+            <div class="sle-container">    
+                <div class="selection-age">
+                        <div class="up">
+                            <i class="fa-solid fa-angle-up" style="color: #000000;"></i>
+                        </div>
+                        
+                        <div class="input-container">
+                            <input 
+                            type="number"
+                            class="num-input"
+                            min="100"
+                            max="200"
+                            value="150"
+                            data-color="#21d99b">
+                        </div>  
+                        <div class="down">
+                            <i class="fa-solid fa-angle-down" style="color: #000000;"></i>
+                        </div>
+                        
+                    </div>
+
+                    <div class="selection-age2">
+                        <div class="up2">
+                            <i class="fa-solid fa-angle-up upyo" style="color: #000000;"></i>
+                        </div>
+                        
+                        <div class="input-container2">
+                            <input 
+                            type="number"
+                            class="num-input"
+                            min="20"
+                            max="100"
+                            value="30"
+                            data-color="#21d99b">
+                        </div>  
+                        <div class="down2">
+                            <i class="fa-solid fa-angle-down downyo" style="color: #000000;"></i>
+                        </div> 
+                    </div>
+            </div>
+            
+            <div class="text-caontainer">
+                <div class="left">
+                    <p>Cm</p>
+                </div>
+                <div class="right">
+                    <p>Kg</p>
+                </div>
+            </div>
+            
+            <!-- ปุ่ม -->
+            <div class="next-button">
+                <button onclick="nexttosex()">Next</button>
+            </div>
+            <div class="footer-container">
+                <button onclick="nexttosex()">Skip <i class="fa-solid fa-angle-right" style="color: white;"></i></button>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/bb7a196dfb.js" crossorigin="anonymous"></script>
+    <!-- java -->
+    <script src="mainjs.js"></script>
+</body>
+</html>

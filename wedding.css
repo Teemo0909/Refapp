@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+
+
+.Phone-container {
+    margin: 0 auto;
+    width: 400px;
+    height: 800px;
+    border-radius: 40px;
+    border: solid 10px black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+    /* background-image: url(Pic/054A6856.webp);
+    background-position: center;
+    background-size: cover; */
+}
+
+.main-container {
+    /* background-color: black; */
+    background: linear-gradient(180deg, white 0%, black 100%)
+}
+
+.top {
+    /* background-color: aqua; */
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+}
+
+
+.top .ser {
+    background-color: #FFEA2C;
+    width: 80%;
+    height: 40px;
+    margin-left: 40px;
+    display: flex;
+    border: #393939 solid 3px;
+    border-radius: 50px;
+    margin-bottom: -10px;
+    padding: 5px 5px
+}
+
+.top .ser .fa-arrow-left{
+    font-size: 32px;
+    padding-top: 4px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+
+.top .ser input {
+    width: 95%;
+    height: 100%;
+    /* border-radius: 50px; */
+    padding-left: 15px;
+    align-items: center;
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+}
+
+.top .se-container {
+    /* background-color: orange; */
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    overflow-x: scroll hidden;
+    display: flex;
+    margin-left: 38px;
+}
+
+.se-container .black {
+    background-color: black;
+}
+
+.se-container .N {
+    background-color:#F9E3AB ;
+}
+
+.se-container .brown {
+    background-color: brown;
+}
+
+.se-container .pink {
+    background-color: pink;
+}
+
+.se-container .plus {
+    font-size: 25px;
+}
+
+.top .se-container button {
+    border-radius: 100% ;
+    height: 100%;
+    width: 40px;
+    margin-left: 13px;
+    cursor: pointer;
+    border: black solid 2px;
+}
+
+.cloperfer-container {
+    /* background-color: black; */
+    overflow-y: scroll;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 650px;
+    max-height: 650px;
+    margin-top: 20px;
+}
+
+.one-container {
+ /* background-color: #FFEA2C; */
+ margin-top: 10px;
+}
+
+.img-container {
+    background-color: #393939;
+    width: 330px;
+    border-radius: 20px;
+    height: 330px;
+    margin-left: 30px;
+    border: white solid 3px;
+    
+}
+
+.img-container img {
+    width: 80%;
+   padding-top: 15px;
+   cursor: pointer;
+
+
+}
+
+
+
+
+
+.cloperfer-container::-webkit-scrollbar {
+    background-color: white;
+    border: #393939 solid 1px;
+    width: 12px; /* width of the scrollbar */
+    border-radius: 10px; /* border-radius of the entire scrollbar */
+}
+
+.cloperfer-container::-webkit-scrollbar-thumb {
+    background-color: #FFEA2C; /* color of the thumb */
+    border-radius: 10px; /* border-radius of the thumb */
+}
+
+
+.pic-container {
+    /* background-color: #FFEA2C; */
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+   
+}
+
+.crad {
+    width: 160px;
+    height: 160px;
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+
+.crad img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: #393939 solid 5px;
+    /* margin-left: 15px; */
+    margin-top: 5px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -70px;
+    position: relative;
+}
+
+.bar-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.icon-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 25px;
+}
+
+.icon-container a:hover {
+    color: #ddd;
+}
+
+.icon-container .fa-house {
+    color:#FFEA2C;
+}

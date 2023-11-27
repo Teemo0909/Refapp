@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+body{
+    font-family: Poppins;
+
+}
+
+.Phone-container {
+    margin: 0 auto;
+    width: 400px;
+    height: 800px;
+    border-radius: 40px;
+    border: solid 10px black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 40px;
+    /* background-image: url(Pic/054A6856.webp);
+    background-position: center;
+    background-size: cover; */
+}
+
+.main-container {
+    /* background-color: black; */
+    background: linear-gradient(180deg, white 0%, black 100%)
+}
+
+.top {
+    /* background-color: aqua; */
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+.two-container{
+    /* background-color: aqua; */
+    height: 330px;
+}
+
+.top-info-container {
+    display: flex;
+    width: 100%;
+    /* background-color: #333; */
+}
+.top-info-container {
+    cursor: pointer;
+}
+
+.main-p {
+    /* background-color: #ddd; */
+    margin-left: 30px;
+    margin-right: 150px;
+    font-size: 18px;
+    color: #FFEA2C;
+    text-shadow: 2px 0px 7px rgba(0, 0, 0, 0.44);
+}
+
+
+.se-container .black {
+    background-color: black;
+}
+
+.se-container .N {
+    background-color:#F9E3AB ;
+}
+
+.se-container .brown {
+    background-color: brown;
+}
+
+.se-container .pink {
+    background-color: pink;
+}
+
+.se-container .plus {
+    font-size: 25px;
+}
+
+.top .se-container button {
+    border-radius: 100% ;
+    height: 100%;
+    width: 40px;
+    margin-left: 13px;
+    cursor: pointer;
+    border: black solid 2px;
+}
+
+.cloperfer-container {
+    /* background-color: black; */
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 650px;
+    max-height: 650px;
+    margin-top: -30px;
+    overflow-y: scroll;
+}
+
+.one-container {
+ /* background-color: #FFEA2C; */
+ margin-top: 10px;
+}
+
+
+.top {
+    /* background-color: #FFEA2C; */
+    
+}
+
+.ser {
+    display: flex;
+}
+
+.ser i {
+    font-size: 45px;
+    margin-top: 19px;
+    margin-left: 30px;
+}
+
+.ser p {
+    color: #393939;
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+
+
+
+
+.cloperfer-container::-webkit-scrollbar {
+    background-color: white;
+    border: #393939 solid 1px;
+    width: 12px; /* width of the scrollbar */
+    border-radius: 10px; /* border-radius of the entire scrollbar */
+}
+
+.cloperfer-container::-webkit-scrollbar-thumb {
+    background-color: #FFEA2C; /* color of the thumb */
+    border-radius: 10px; /* border-radius of the thumb */
+}
+
+
+.pic-container {
+    /* background-color: #FFEA2C; */
+    display: flex;
+    width: 100%;
+    
+}
+
+.crad {
+    width: 130px;
+    height: 120px;
+    margin-top: 10px;
+    /* background-color: white; */
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-bottom: -10px;
+}
+
+.cradtwo {
+    width: 130px;
+    height: 120px;
+    margin-top: 10px;
+    /* background-color: white; */
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-bottom: -10px;
+}
+
+.cradtwo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+   
+    /* margin-left: 15px; */
+    margin-top: -3px;
+    cursor: pointer;
+}
+
+
+.crad img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: white solid 5px;
+    /* margin-left: 15px; */
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -25px;
+    position: relative;
+}
+
+.bar-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.icon-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 25px;
+}
+
+.icon-container a:hover {
+    color: #ddd;
+}
+
+
+.icon-container .fa-magnifying-glass{
+    color: #FFEA2C;
+}
+
+.clothersc-container {
+    /* background-color: aqua; */
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 19.5rem;
+    width: 70px;
+    height: 70px;
+}
+
+.clothersc-container button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: #393939;
+    border: #FFEA2C solid 2px;
+    cursor: pointer;
+}
+
+.clothersc-container i {
+    color: white;
+}
+
+.clothersc-container .fa-top {
+    color: #FFEA2C;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: -32px;
+    font-size: 12px;
+}
